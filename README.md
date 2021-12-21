@@ -97,8 +97,6 @@ I executed the enpoints.py file in a terminal and obtained two prediction which 
 
 ![image](https://user-images.githubusercontent.com/77330289/146937239-cafbce2a-0c49-4b01-bcd3-afd7c12de78d.png)
 
-Benchmarking was suggested as an extra step.  I completed this extra step and will be shown in the standout suggestions section.
-
 The seventh and final step in this project was to creat, publish and Consume a pipeline.  The following screenshots shows that I created, published and consumed a pipeline.
 
 The three screenshot that follow shows that the pipeline runs was completed successfully.
@@ -135,16 +133,3 @@ The two screenshots below shows the resource clean-up of the compute instance an
 
 ## Screen Recording
 https://youtu.be/lqjhB5sy9o8
-
-## Standout Suggestions
-I have completed the benchmarking of my deployed model endpoint.
-
-In order to complete the benchmarking of my deployed model endpoint it is necessary to replace the scoring_uri and key in the endpoint.py file to ensure that authentication will succeed.
-
-After endpoint.py has been executed a data.json file will be created.  Only then can the benchmark.sh file be executed.
-
-The screenshot below shows that the Apache Benchmark (ab) has run against my deployed model HTTP API and provided some performance results.
-
-![image](https://user-images.githubusercontent.com/77330289/146944308-615de7b3-a0bc-4f8f-aaa9-a3c0caaec382.png)
-
-The full output to the benchmark of the endpoint is included in the benchmark.sh file.
