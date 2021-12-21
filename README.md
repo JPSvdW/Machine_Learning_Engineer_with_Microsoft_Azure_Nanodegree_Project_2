@@ -5,7 +5,8 @@ This is the second project for the Udacity Machine Learning Engineer with Micros
 In this project I have imported and registerred a bank marketing dataset used to train a classification machine learning model using Automated Machine Learning in Azure Machine Learning Studio.  After the AutoML experiment finished the best model (VotingEnsemble) was chosen to be deployed using a an Azure Container Instance (ACI).  Application Insights and logging for the deployed model was enabled.  Swagger documentation was created for the deployed model HTTP API.  The model REST endpoint was then consumed using the Python SDK.  Finally a pipeline was created, published and consumed.
 
 ## Architectural Diagram
-![image](https://user-images.githubusercontent.com/77330289/146950458-8ba695f1-671e-4641-a800-476cdb18c71b.png)
+![image](https://user-images.githubusercontent.com/77330289/146950620-a655f479-9321-4eb8-a09d-4e8146b31a45.png)
+
 
 
 ## Key Steps
