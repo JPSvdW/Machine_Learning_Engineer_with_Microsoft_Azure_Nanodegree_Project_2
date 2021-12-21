@@ -16,7 +16,9 @@ The second step in this project is to create an Automated ML Experiment.
 In order to create an Automated ML Experiment the following steps were taken.
 
 1). I had to upload and register the bankmarketing_train.csv to Microsoft Azure Machine Learning Studio.  The two screenshots below shows this step.
+
 ![image](https://user-images.githubusercontent.com/77330289/146927691-faec63e6-0612-4b44-8003-7eb2da178382.png)
+
 ![image](https://user-images.githubusercontent.com/77330289/146927731-2da425af-3247-4191-9c7c-57ce4f7049ae.png)
 
 2).  The second important step to be able to create an Automated ML Experiment is to configure a compute cluster.  A standard_DS12_V2 compute cluster with a minimum of one node and a maximum of 6 nodes was created.
@@ -26,6 +28,7 @@ In order to create an Automated ML Experiment the following steps were taken.
 - On exit criterion default time was reduced to 1 hour. (This is to reduce the training time due to the Virtual Machine Time limit)
 - Concurrency was set to 5, which should always be one less than the maximum nodes specified in the compute cluster.
 The following screenshot shows that the Automated ML Experiment has completed successfully.
+
 ![image](https://user-images.githubusercontent.com/77330289/146929209-0c0af3d9-5950-47ea-804b-5c0561b3a677.png)
 
 
