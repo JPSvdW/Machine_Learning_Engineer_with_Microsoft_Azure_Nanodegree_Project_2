@@ -97,7 +97,39 @@ I executed the enpoints.py file in a terminal and obtained two prediction which 
 
 Benchmarking was suggested as an extra step.  I completed this extra step and will be shown in the standout suggestions section.
 
-The seventh and final step in this project was to creat, publish and Consume a pipeline.
+The seventh and final step in this project was to creat, publish and Consume a pipeline.  The following screenshots shows that I created, published and consumed a pipeline.
+
+The below screenshot shows 
+![image](https://user-images.githubusercontent.com/77330289/146941372-7d80f40c-eb14-4de2-827b-069173e8e5cc.png)
+
+![image](https://user-images.githubusercontent.com/77330289/146941434-4c0fb68c-dcfc-4e06-94f6-b2df2022c685.png)
+
+![image](https://user-images.githubusercontent.com/77330289/146941500-8fe9003e-2a5e-4e76-bb9a-5c722b047142.png)
+
+![image](https://user-images.githubusercontent.com/77330289/146941538-54cb0bfc-b4df-4685-9f10-a1cd9f4d6cce.png)
+
+![image](https://user-images.githubusercontent.com/77330289/146941612-b8fd4c44-7a74-4f41-b08a-19a73ddedbfb.png)
+
+![image](https://user-images.githubusercontent.com/77330289/146941783-d612f703-ab0d-4ddc-9f5b-c2bbcf3e89f6.png)
+
+![image](https://user-images.githubusercontent.com/77330289/146941821-d90fdf6e-650e-4673-9119-8cd52a047695.png)
+
+![image](https://user-images.githubusercontent.com/77330289/146941840-3b2439ba-73f2-46b5-8c4d-d562f5c84381.png)
+
+![image](https://user-images.githubusercontent.com/77330289/146941927-e0efeb67-9ec2-429d-947e-5924b21b0a5a.png)
+
+![image](https://user-images.githubusercontent.com/77330289/146941947-d4e2aec1-5db1-4d5c-a1e6-5224c8e7cc0c.png)
+
+
+
+
+
+
+
+
+
+
+
 
 ## Screen Recording
 https://youtu.be/lqjhB5sy9o8
