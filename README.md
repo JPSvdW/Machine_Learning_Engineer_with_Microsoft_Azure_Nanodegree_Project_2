@@ -7,12 +7,18 @@ In this project I have imported and registerred a bank marketing dataset used to
 ## Architectural Diagram
 ![image](https://user-images.githubusercontent.com/77330289/146950620-a655f479-9321-4eb8-a09d-4e8146b31a45.png)
 
-1).  Register the Bank Marketing Dataset in Azure Machine Learning Studio
+1).  Register the Bank Marketing Dataset in Azure Machine Learning Studio.
+
 2).  Create an Automated Machine Learning Experiment by creating a Standard_DS12_v2 compute cluster with minimum nodes of one and maximum nodes of six.  Enable explain best model and change exit criterion to one hour and concurrency to one less that the maximum nodes of the compute cluster.
+
 3).  Choose the best model from the completed experiment and deploy using an Azure Container Instance and enable authentication.
+
 4).  Enable Application Insights and logging for the deployed model to be able to monitor performace and any issues. 
+
 5).  Create a python server and run the latest Swagger container and consume/interact with the Swagger instance running the documentation for the model HTTP API.
+
 6).  Make use of the Python SDK and create a python file that will run against the model HTTP API and produce prediction outputs from the model.
+
 7).  Make use of a Jupyter Notebook to create a pipeline to choose the best AutoML model and publish it.
 
 ## Key Steps
