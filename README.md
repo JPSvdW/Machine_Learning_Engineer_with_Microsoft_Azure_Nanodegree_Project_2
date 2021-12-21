@@ -99,15 +99,15 @@ Benchmarking was suggested as an extra step.  I completed this extra step and wi
 
 The seventh and final step in this project was to creat, publish and Consume a pipeline.  The following screenshots shows that I created, published and consumed a pipeline.
 
-The below screenshot shows that the pipeline runs was completed successfully.
+The three screenshot that follow shows that the pipeline runs was completed successfully.
 
 ![image](https://user-images.githubusercontent.com/77330289/146941372-7d80f40c-eb14-4de2-827b-069173e8e5cc.png)
-
-The below screenshot shows that
 
 ![image](https://user-images.githubusercontent.com/77330289/146941434-4c0fb68c-dcfc-4e06-94f6-b2df2022c685.png)
 
 ![image](https://user-images.githubusercontent.com/77330289/146941500-8fe9003e-2a5e-4e76-bb9a-5c722b047142.png)
+
+The below screenshot
 
 ![image](https://user-images.githubusercontent.com/77330289/146941538-54cb0bfc-b4df-4685-9f10-a1cd9f4d6cce.png)
 
