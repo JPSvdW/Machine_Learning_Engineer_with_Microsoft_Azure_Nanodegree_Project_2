@@ -100,7 +100,7 @@ Benchmarking was suggested as an extra step.  I completed this extra step and wi
 The seventh and final step in this project was to creat, publish and Consume a pipeline.
 
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
+https://youtu.be/lqjhB5sy9o8
 
 ## Standout Suggestions
 *TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
