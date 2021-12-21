@@ -60,9 +60,47 @@ The below screenshot shows that the logs.py file was executed in a terminal and 
 
 ![image](https://user-images.githubusercontent.com/77330289/146932839-65174e42-ee03-4168-96a9-007d74f15fe2.png)
 
+The fith step in this project was making use of Swagger Documentation to consume the deployed model endpoint.  The following steps needs to be completed in order to consume the enpoint using Swagger:
+- The swagger.json file for the deployed model was downloaded.
+- The port number in the swagger.sh file was changed from 80 to 9000.
+- Execute the swagger.sh file (This will download the latest Swagger container and will run on port 9000).
+- Execute the serve.py file (This will start a Python server on port 8000).
+- Open up a browser and go to localhost.
+- Enter http://localhost:8000/swagger.json to interact with the Swagger instance running, showing the documentation for the HTTP API of the model.
 
+The below screenshot shows the execution of the swagger.sh file.
 
+![image](https://user-images.githubusercontent.com/77330289/146937430-5970e9ec-05d4-418f-82d9-f283c33dadb3.png)
 
+The below screenshot shows the execution of the python server.
+
+![image](https://user-images.githubusercontent.com/77330289/146937554-695eb7ab-b27e-4690-a493-aa7cdfbd4c35.png)
+
+The below screenshot shows that Swagger is running on a localhost, showing the HTTP API methods and responses of the deployed model.
+
+![image](https://user-images.githubusercontent.com/77330289/146935589-af4d40f5-7c9f-4d3d-8e69-834afa6be2ba.png)
+
+The below screenshot shows the get method of the deployed model.
+
+![image](https://user-images.githubusercontent.com/77330289/146935658-d6b02cff-a9f8-4cbc-9bb5-b16ccb4732dc.png)
+
+The below screenshot shows the post method containing the data structure that needs to be sent to the deployed model in order to obtain the prediction.
+
+![image](https://user-images.githubusercontent.com/77330289/146935816-207cdec2-7b28-40d3-8939-958cc093f475.png)
+
+The sixth step in this project was to consume the model endpoint using a python script.
+
+The endpoints.py file was provided along with the starter_files folder.  In order to interact with my deployed model, I had to make a few modifications to the endpoints.py file.
+- Authentication was enabled for my deployed model and thus I had to fetch the scoring_uri and key from the consume tab of my deployed model in Microsoft Azure Machine Learning Studio and add it to the endpoints.py file.
+- I added to sets of data to the endpoints.py file which will return two predictions on wheter these clients will make a deposit at the bank.
+
+I executed the enpoints.py file in a terminal and obtained two prediction which is shown in the screenshot below.
+
+![image](https://user-images.githubusercontent.com/77330289/146937239-cafbce2a-0c49-4b01-bcd3-afd7c12de78d.png)
+
+Benchmarking was suggested as an extra step.  I completed this extra step and will be shown in the standout suggestions section.
+
+The last step in this project was to creat, publish and Consume a pipeline.
 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
