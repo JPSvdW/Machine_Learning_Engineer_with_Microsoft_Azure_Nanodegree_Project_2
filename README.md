@@ -107,9 +107,11 @@ The three screenshot that follow shows that the pipeline runs was completed succ
 
 ![image](https://user-images.githubusercontent.com/77330289/146941500-8fe9003e-2a5e-4e76-bb9a-5c722b047142.png)
 
-The below screenshot
+The below screenshot shows that the Bankmarketing dataset was registered with the AutoML module.
 
 ![image](https://user-images.githubusercontent.com/77330289/146941538-54cb0bfc-b4df-4685-9f10-a1cd9f4d6cce.png)
+
+The below screenshot
 
 ![image](https://user-images.githubusercontent.com/77330289/146941612-b8fd4c44-7a74-4f41-b08a-19a73ddedbfb.png)
 
