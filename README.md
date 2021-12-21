@@ -111,9 +111,11 @@ The below screenshot shows that the Bankmarketing dataset was registered with th
 
 ![image](https://user-images.githubusercontent.com/77330289/146941538-54cb0bfc-b4df-4685-9f10-a1cd9f4d6cce.png)
 
-The below screenshot
+The below screenshot shows that the Pipeline REST endpoint is active.
 
 ![image](https://user-images.githubusercontent.com/77330289/146941612-b8fd4c44-7a74-4f41-b08a-19a73ddedbfb.png)
+
+The below screenshot shows
 
 ![image](https://user-images.githubusercontent.com/77330289/146941783-d612f703-ab0d-4ddc-9f5b-c2bbcf3e89f6.png)
 
@@ -124,17 +126,6 @@ The below screenshot
 ![image](https://user-images.githubusercontent.com/77330289/146941927-e0efeb67-9ec2-429d-947e-5924b21b0a5a.png)
 
 ![image](https://user-images.githubusercontent.com/77330289/146941947-d4e2aec1-5db1-4d5c-a1e6-5224c8e7cc0c.png)
-
-
-
-
-
-
-
-
-
-
-
 
 ## Screen Recording
 https://youtu.be/lqjhB5sy9o8
