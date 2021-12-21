@@ -100,7 +100,7 @@ I executed the enpoints.py file in a terminal and obtained two prediction which 
 
 Benchmarking was suggested as an extra step.  I completed this extra step and will be shown in the standout suggestions section.
 
-The last step in this project was to creat, publish and Consume a pipeline.
+The seventh and final step in this project was to creat, publish and Consume a pipeline.
 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
