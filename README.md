@@ -18,6 +18,8 @@ In order to create an Automated ML Experiment the following steps were taken.
 
 ![image](https://user-images.githubusercontent.com/77330289/146927731-2da425af-3247-4191-9c7c-57ce4f7049ae.png)
 
+The bankmarketing_train.csv file contains fields pertaining to information gathered during a marketing outreach on whether a client will make a deposit to a bank
+
 2).  The second important step to be able to create an Automated ML Experiment is to configure a compute cluster.  A standard_DS12_V2 compute cluster with a minimum of one node and a maximum of 6 nodes was created.
 
 3).  Now that a dataset has been registered and a compute cluster has been created, an Automated ML run can be created.  Thereafter, a automated ML experiment was created.  The following configuration was used for the Automated ML Experiment:
@@ -119,7 +121,7 @@ The below screenshot shows that the "Use RunDetails Widget" contains the step ru
 
 ![image](https://user-images.githubusercontent.com/77330289/146941783-d612f703-ab0d-4ddc-9f5b-c2bbcf3e89f6.png)
 
-The below screenshot shows
+The two screenshots below shows the scheduled run in ML studio.
 
 ![image](https://user-images.githubusercontent.com/77330289/146941821-d90fdf6e-650e-4673-9119-8cd52a047695.png)
 
@@ -135,4 +137,14 @@ The two screenshots below shows the resource clean-up of the compute instance an
 https://youtu.be/lqjhB5sy9o8
 
 ## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
+I have completed the benchmarking of my deployed model endpoint.
+
+In order to complete the benchmarking of my deployed model endpoint it is necessary to replace the scoring_uri and key in the endpoint.py file to ensure that authentication will succeed.
+
+After endpoint.py has been executed a data.json file will be created.  Only then can the benchmark.sh file be executed.
+
+The screenshot below shows that the Apache Benchmark (ab) has run against my deployed model HTTP API and provided some performance results.
+
+![image](https://user-images.githubusercontent.com/77330289/146944308-615de7b3-a0bc-4f8f-aaa9-a3c0caaec382.png)
+
+The full output to the benchmark of the endpoint is included in the benchmark.sh file.
