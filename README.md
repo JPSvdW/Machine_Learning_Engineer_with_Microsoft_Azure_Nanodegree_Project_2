@@ -115,13 +115,17 @@ The below screenshot shows that the Pipeline REST endpoint is active.
 
 ![image](https://user-images.githubusercontent.com/77330289/146941612-b8fd4c44-7a74-4f41-b08a-19a73ddedbfb.png)
 
-The below screenshot shows
+The below screenshot shows that the "Use RunDetails Widget" contains the step runs.
 
 ![image](https://user-images.githubusercontent.com/77330289/146941783-d612f703-ab0d-4ddc-9f5b-c2bbcf3e89f6.png)
+
+The below screenshot shows
 
 ![image](https://user-images.githubusercontent.com/77330289/146941821-d90fdf6e-650e-4673-9119-8cd52a047695.png)
 
 ![image](https://user-images.githubusercontent.com/77330289/146941840-3b2439ba-73f2-46b5-8c4d-d562f5c84381.png)
+
+The two screenshots below shows the resource clean-up of the compute instance and compute cluster.
 
 ![image](https://user-images.githubusercontent.com/77330289/146941927-e0efeb67-9ec2-429d-947e-5924b21b0a5a.png)
 
