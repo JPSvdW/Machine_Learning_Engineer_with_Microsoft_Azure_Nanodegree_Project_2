@@ -38,7 +38,15 @@ In order to create an Automated ML Experiment the following steps were taken.
 
 ![image](https://user-images.githubusercontent.com/77330289/146927691-faec63e6-0612-4b44-8003-7eb2da178382.png)
 
+Screenshot 1: Adding details to the dataset being regitered.
+
+Screenshot 1, shows the addition of basic information to the dataset being registered.  Information like the name of the dataset, dataset type and a description is added. 
+
 ![image](https://user-images.githubusercontent.com/77330289/146927731-2da425af-3247-4191-9c7c-57ce4f7049ae.png)
+
+Screenshot 2: Dataset registered
+
+Screenshot 2, privides confirmation that the new sdataset has successfully been registered on Microsof Azure Machine Learning Studio.  The screenshot also provides extra details regarding the registered dataset.  Information like the name, data source, date created, date modified, properties of the dataset and who created the dataset is shown.
 
 The bankmarketing_train.csv file contains fields pertaining to information gathered during a marketing outreach on whether a client will make a deposit to a bank
 
