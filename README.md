@@ -7,6 +7,8 @@ In this project I have imported and registerred a bank marketing dataset used to
 ## Architectural Diagram
 ![image](https://user-images.githubusercontent.com/77330289/146950620-a655f479-9321-4eb8-a09d-4e8146b31a45.png)
 
+Diagram 1: Architectural diagram.
+
 1).  Register the Bank Marketing Dataset in Azure Machine Learning Studio.
 
 2).  Create an Automated Machine Learning Experiment by creating a Standard_DS12_v2 compute cluster with minimum nodes of one and maximum nodes of six.  Enable explain best model and change exit criterion to one hour and concurrency to one less that the maximum nodes of the compute cluster.
@@ -190,9 +192,9 @@ The two screenshots below shows the scheduled run in ML studio.
 
 The two screenshots below shows the resource clean-up of the compute instance and compute cluster.
 
-![image](https://user-images.githubusercontent.com/77330289/146941927-e0efeb67-9ec2-429d-947e-5924b21b0a5a.png)
+![image](https://user-images.githubusercontent.com/77330289/147090249-2d0bd800-b3ea-4ffe-b540-3a407fbffe6c.png)
 
-![image](https://user-images.githubusercontent.com/77330289/146941947-d4e2aec1-5db1-4d5c-a1e6-5224c8e7cc0c.png)
+![image](https://user-images.githubusercontent.com/77330289/147090304-9b3c1812-da35-4449-9933-dab80a1d470e.png)
 
 ## Screen Recording
 https://youtu.be/lqjhB5sy9o8
