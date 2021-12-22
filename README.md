@@ -141,9 +141,9 @@ The below screenshot shows that the "Use RunDetails Widget" contains the step ru
 
 The two screenshots below shows the scheduled run in ML studio.
 
-![image](https://user-images.githubusercontent.com/77330289/146941821-d90fdf6e-650e-4673-9119-8cd52a047695.png)
+![image](https://user-images.githubusercontent.com/77330289/147079541-d08a09ae-a126-4e8a-9dcd-2dd2b882a9c6.png)
 
-![image](https://user-images.githubusercontent.com/77330289/146941840-3b2439ba-73f2-46b5-8c4d-d562f5c84381.png)
+![image](https://user-images.githubusercontent.com/77330289/147079630-45fbdf5c-e5aa-47c3-9b61-b161da28e41a.png)
 
 The two screenshots below shows the resource clean-up of the compute instance and compute cluster.
 
