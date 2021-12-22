@@ -22,6 +22,7 @@ In this project I have imported and registerred a bank marketing dataset used to
 7).  Make use of a Jupyter Notebook to create a pipeline to choose the best AutoML model and publish it.
 ## Future Improvement
 There are a few future improvements that would help to improve the model.
+
 1).  Increase the training time.  The exit criterion was changed to one hour.  This could lead to under training of the model.  By increasing training time, it insures that the model is not under trained and will increase the accuracy of the model.
 
 2).  Use deep learning.  Traditional Classification Machine Learning Algorithms are linear.  Deep learning introduces multiple hidden layers of of neurons which adds more complexity and abstraction with each layer being added.  Deep learning also extracts features without supervision.  This means that a Machine Learning Engineer spends less time specifying to the algorithm which features to use for training.  The combination of adding complexity, abstraction, and automated featurization, leads to faster training times and more acurate models in the end.
