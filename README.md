@@ -58,7 +58,6 @@ The bankmarketing_train.csv file contains fields pertaining to information gathe
 - Classification was used to predict the outcome.
 - On exit criterion default time was reduced to 1 hour. (This is to reduce the training time due to the Virtual Machine Time limit)
 - Concurrency was set to 5, which should always be one less than the maximum nodes specified in the compute cluster.
-The following screenshot shows that the Automated ML Experiment has completed successfully.
 
 ![image](https://user-images.githubusercontent.com/77330289/146929209-0c0af3d9-5950-47ea-804b-5c0561b3a677.png)
 
