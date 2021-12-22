@@ -149,3 +149,6 @@ The two screenshots below shows the resource clean-up of the compute instance an
 
 ## Screen Recording
 https://youtu.be/lqjhB5sy9o8
+
+![image](https://user-images.githubusercontent.com/77330289/147071411-94b89b6f-d328-42ef-b7fd-91ff12fbbb02.png)
+
