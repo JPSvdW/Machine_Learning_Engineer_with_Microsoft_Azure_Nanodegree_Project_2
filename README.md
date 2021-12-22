@@ -38,7 +38,7 @@ In order to create an Automated ML Experiment the following steps were taken.
 
 ![image](https://user-images.githubusercontent.com/77330289/146927691-faec63e6-0612-4b44-8003-7eb2da178382.png)
 
-Screenshot 1: Adding details to the dataset being regitered.
+Screenshot 1: Adding details to the dataset being registered.
 
 Screenshot 1 shows the addition of basic information to the dataset being registered.  Information like the name of the dataset, dataset type and a description is added. 
 
