@@ -156,7 +156,7 @@ One of the standout suggestions was to run the Apache Benchmark (ab) against my 
 
 ![image](https://user-images.githubusercontent.com/77330289/147071411-94b89b6f-d328-42ef-b7fd-91ff12fbbb02.png)
 
-The output shows that the HTTP requests was executed successfully and also provides the prediction output from the model endpoint.  Some more performace metrics like test time, number of successful requests, number of failed requests, total data transfered and received, metrics on connection times and percentage of requests served within a certain time.
+The output shows that the HTTP requests was executed successfully and also provides the prediction output from the model endpoint.  Some more performace metrics like test time, number of successful requests, number of failed requests, total data transfered and received, metrics on connection times and percentage of requests served within a certain time was included in the response.
 
 The full response is included as comments in the benchmark.sh file for further investigation.
 
