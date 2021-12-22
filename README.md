@@ -137,7 +137,7 @@ The below screenshot shows that the Pipeline REST endpoint is active.
 
 The below screenshot shows that the "Use RunDetails Widget" contains the step runs.
 
-![image](https://user-images.githubusercontent.com/77330289/146941783-d612f703-ab0d-4ddc-9f5b-c2bbcf3e89f6.png)
+![image](https://user-images.githubusercontent.com/77330289/147079337-db4544a5-72a8-447a-a44f-a1e5f67f8c69.png)
 
 The two screenshots below shows the scheduled run in ML studio.
 
