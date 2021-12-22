@@ -40,13 +40,13 @@ In order to create an Automated ML Experiment the following steps were taken.
 
 Screenshot 1: Adding details to the dataset being regitered.
 
-Screenshot 1, shows the addition of basic information to the dataset being registered.  Information like the name of the dataset, dataset type and a description is added. 
+Screenshot 1 shows the addition of basic information to the dataset being registered.  Information like the name of the dataset, dataset type and a description is added. 
 
 ![image](https://user-images.githubusercontent.com/77330289/146927731-2da425af-3247-4191-9c7c-57ce4f7049ae.png)
 
 Screenshot 2: Dataset registered
 
-Screenshot 2, privides confirmation that the new sdataset has successfully been registered on Microsof Azure Machine Learning Studio.  The screenshot also provides extra details regarding the registered dataset.  Information like the name, data source, date created, date modified, properties of the dataset and who created the dataset is shown.
+Screenshot 2 privides confirmation that the new sdataset has successfully been registered on Microsof Azure Machine Learning Studio.  The screenshot also provides extra details regarding the registered dataset.  Information like the name, data source, date created, date modified, properties of the dataset and who created the dataset is shown.
 
 The bankmarketing_train.csv file contains fields pertaining to information gathered during a marketing outreach on whether a client will make a deposit to a bank
 
@@ -60,24 +60,51 @@ The following screenshot shows that the Automated ML Experiment has completed su
 
 ![image](https://user-images.githubusercontent.com/77330289/146929209-0c0af3d9-5950-47ea-804b-5c0561b3a677.png)
 
+Screenshot 3: Automated ML run complete.
+
+Screenshot 3 provides confirmation that the Automated ML run has completed successfully.  Information like the run name, experiment name, status, submitted time, duration, submitted by and compute target used is provided.
+
 The following screenshots will show that the best model from the exiperiment as a Voting Ensemble.  This model was then chosen to be used in the steps that will follow.
 
 ![image](https://user-images.githubusercontent.com/77330289/146930181-8d6a7789-4173-4bd5-8de7-53f9bdd70b58.png)
 
+Screenshot 4: Completed Automated ML Experiment.
+
+Screenshot 4 provides confirmation that the Automated Ml experiment has completed successfully.  This screenshot provides details of the best trained model produced during this experiment.  The best model is a voting ensemble algorithm and has a AUC weighting of 0.94791.
+
 ![image](https://user-images.githubusercontent.com/77330289/146930231-69a377d1-0792-4b49-a258-3820788d22f6.png)
+
+Screenshot 5: List of all models pruduced.
+
+Screenshot 5 provides details on all the models trained during the experiment.  This information can be found under the models tab within the Automated ML section.  The algorithm name, AUC weighting, sampling and duration for each model is given.  Explanation of the best model was enabled and a link to the explanation is provided in the explained column next to the best model (VotingEnsemble).
 
 ![image](https://user-images.githubusercontent.com/77330289/146930251-db7a9cb0-4db5-482f-bf75-f6b3f20a0a80.png)
 
+Screenshot 6: Overview of the best model
+
+Screenshot 6 provides a high level view of the best model.  In this screenshot the algorith name and AUC weighting can be seen once more
+
 ![image](https://user-images.githubusercontent.com/77330289/146930268-6c296491-0078-4813-85d5-83cb44f3a0da.png)
+
+Screenshot 7:  Explanation of the best model.
+
+Screenshot 7 provides a preview on the explanation of the best model.  The preview shows the top four features that will help predict the outcome from new data being fed to the model endpoint later in this project.
 
 The third step in this project is to deploy the best model chosen from the Automated ML Experiment earlier.
 
-The screenshot below shows the configuration setup for the deployment of the best model.  A name was provided for the deployed model, a brief description, container type was set as an Azure Container Instance and authentication was enabled.
+In this step the configuration setup for the deployment of the best model is completed and the model is then deployed.  A name was provided for the deployed model, a brief description, container type was set as an Azure Container Instance and authentication was enabled.
 
 ![image](https://user-images.githubusercontent.com/77330289/146930569-38fb6bb1-3098-441b-90d7-03c80b1c5ffd.png)
 
-The below screenshot shows the successful deployment of the best model, with a deployment state as healthy.  The screenshot also provides valuable information that will be used in the steps to follow.  The REST endpoint and Swagger URI is shown.
+Screenshot 8: Model deployment setup.
+
+Screenshot 8 shows the configuration information for the deployed model.  The model name, description, compute type and authentication can be seen configured.
+
 ![image](https://user-images.githubusercontent.com/77330289/146930549-64ed3fe2-e323-42bf-bd5e-bebd53a73ce6.png)
+
+Screenshot 9: Deployed model details.
+
+Screenshot 9 provides visual confirmation on the successful deployment of the best model.  The deployment state can be seen as healthy.  Information like the REST endpoint and Swagger URI is shown.  These details will be used later in this project.
 
 The fourth step in this project was to enable logging.  In order to enable logging Azure Python SDK was used.  The python file provided in the starter_files folder (logs.py) was inspected and in order to work correctly a config.json file needs to be downloaded.  The config.json file contains detail about the Azure subscription and workspace.  The logs.py file was then modified to include my deployed model name and a line added to enable Application Insights (service.update(enable_app_insights=True)).  The logs.py file was executed in a terminal to enable Application Insights for the deployed model and to provide logging output.
 
