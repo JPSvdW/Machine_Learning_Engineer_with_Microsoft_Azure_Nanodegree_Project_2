@@ -150,5 +150,13 @@ The two screenshots below shows the resource clean-up of the compute instance an
 ## Screen Recording
 https://youtu.be/lqjhB5sy9o8
 
+## Standout Suggestions
+
+One of the standout suggestions was to run the Apache Benchmark (ab) against my deployed model's HTTP API.  I had to make sure that the Apache Benchmark command-line tool is installed.  Because the endpoint requires authentication, I had to replace the scoring_uri and key in the endpoint.py file with the correct uri and key that can be found under the consume tab of the deployed model.  After executing the endpoint.py file, a data.json file will be generated.  Only after the data.json file has been generated can the benchmark.sh file be executed.  Before the benchmark.sh file can be executed the scoring_uri and key must be replaced.  The benchmark.sh file was executed and a screenshot of the output is included below. 
+
 ![image](https://user-images.githubusercontent.com/77330289/147071411-94b89b6f-d328-42ef-b7fd-91ff12fbbb02.png)
+
+The output shows that the HTTP requests was executed successfully and also provides the prediction output from the model endpoint.  Some more performace metrics like test time, number of successful requests, number of failed requests, total data transfered and received, metrics on connection times and percentage of requests served within a certain time.
+
+The full response is included as comments in the benchmark.sh file for further investigation.
 
