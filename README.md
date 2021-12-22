@@ -271,18 +271,20 @@ Screenshot 28 shows the details regarding the pipeline REST endpoint experiment 
 
 ![image](https://user-images.githubusercontent.com/77330289/147090249-2d0bd800-b3ea-4ffe-b540-3a407fbffe6c.png)
 
-Screenshot 29:
+Screenshot 29:  Compute cluster cleanup.
 
-Screenshot 29:
+Screenshot 29 provides confirmation of the cleanup of the compute cluster used in this project.  This was done by navigating to the compute section under the Compute clusters tab and deleting the active compute cluster.
 
 ![image](https://user-images.githubusercontent.com/77330289/147090304-9b3c1812-da35-4449-9933-dab80a1d470e.png)
 
-Screenshot 30:
+Screenshot 30:  Compute instance cleanup.
 
-Screenshot 30:
+Screenshot 30 provides confirmation of the cleanup of the compute instance used in this project.  This was done by navigating to the compute section under the Compute instances tab and deleting the active compute instance.
 
 ## Screen Recording
 https://youtu.be/lqjhB5sy9o8
+
+Screencast 1:  Screencast demonstarating the steps taken during this project.
 
 ## Standout Suggestions
 
@@ -290,9 +292,9 @@ One of the standout suggestions was to run the Apache Benchmark (ab) against my 
 
 ![image](https://user-images.githubusercontent.com/77330289/147071411-94b89b6f-d328-42ef-b7fd-91ff12fbbb02.png)
 
-Screenshot 31:
+Screenshot 31:  Execution and response from the Apache Bencmarking tool.
 
-Screenshot 31:
+Screenshot 31 shows the successful execution and response of the Apache Benchmarking tool ran against my deployed model endpoint.
 
 The output shows that the HTTP requests was executed successfully and also provides the prediction output from the model endpoint.  Some more performace metrics like test time, number of successful requests, number of failed requests, total data transfered and received, metrics on connection times and percentage of requests served within a certain time was included in the response.
 
