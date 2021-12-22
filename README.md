@@ -117,13 +117,15 @@ The seventh and final step in this project was to creat, publish and Consume a p
 
 The three screenshot that follow shows that the pipeline runs was completed successfully.
 
-![image](https://user-images.githubusercontent.com/77330289/146941372-7d80f40c-eb14-4de2-827b-069173e8e5cc.png)
+![image](https://user-images.githubusercontent.com/77330289/147077939-b1fc94b6-4bac-4867-b907-f3f948b38475.png)
 
-![image](https://user-images.githubusercontent.com/77330289/146941434-4c0fb68c-dcfc-4e06-94f6-b2df2022c685.png)
+![image](https://user-images.githubusercontent.com/77330289/147078031-188b3a89-c869-468a-b919-30cc3ff34f4d.png)
 
-![image](https://user-images.githubusercontent.com/77330289/146941500-8fe9003e-2a5e-4e76-bb9a-5c722b047142.png)
+![image](https://user-images.githubusercontent.com/77330289/147078124-3a7eabbd-01fe-423b-ae15-a3a5b05469db.png)
 
 The below screenshot shows that the Bankmarketing dataset was registered with the AutoML module.
+
+![image](https://user-images.githubusercontent.com/77330289/147078227-c66ac29d-e3a6-4566-bfd7-789d1ed7e4fd.png)
 
 ![image](https://user-images.githubusercontent.com/77330289/146941538-54cb0bfc-b4df-4685-9f10-a1cd9f4d6cce.png)
 
