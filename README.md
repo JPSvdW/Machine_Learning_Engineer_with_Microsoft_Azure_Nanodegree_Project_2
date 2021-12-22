@@ -135,8 +135,6 @@ The below screenshot shows that the Pipeline REST endpoint is active.
 
 ![image](https://user-images.githubusercontent.com/77330289/147078978-eb4fe70b-a3e1-4679-bc3b-5b7e6826f231.png)
 
-![image](https://user-images.githubusercontent.com/77330289/146941612-b8fd4c44-7a74-4f41-b08a-19a73ddedbfb.png)
-
 The below screenshot shows that the "Use RunDetails Widget" contains the step runs.
 
 ![image](https://user-images.githubusercontent.com/77330289/146941783-d612f703-ab0d-4ddc-9f5b-c2bbcf3e89f6.png)
