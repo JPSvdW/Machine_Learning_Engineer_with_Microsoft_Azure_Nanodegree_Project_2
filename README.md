@@ -20,6 +20,11 @@ In this project I have imported and registerred a bank marketing dataset used to
 6).  Make use of the Python SDK and create a python file that will run against the model HTTP API and produce prediction outputs from the model.
 
 7).  Make use of a Jupyter Notebook to create a pipeline to choose the best AutoML model and publish it.
+## Future Improvement
+There are a few future improvements that would help to improve the model.
+1).  Increase the training time.  The exit criterion was changed to one hour.  This could lead to under training of the model.  By increasing training time, it insures that the model is not under trained and will increase the accuracy of the model.
+
+2).  Use deep learning.  Traditional Classification Machine Learning Algorithms are linear.  Deep learning introduces multiple hidden layers of of neurons which adds more complexity and abstraction with each layer being added.  Deep learning also extracts features without supervision.  This means that a Machine Learning Engineer spends less time specifying to the algorithm which features to use for training.  The combination of adding complexity, abstraction, and automated featurization, leads to faster training times and more acurate models in the end.
 
 ## Key Steps
 The first step of this project is authentication.  This step could not be completed using the virtual machine provided by this course.  I went ahead and skipped to the second step.
@@ -114,6 +119,8 @@ I executed the enpoints.py file in a terminal and obtained two prediction which 
 ![image](https://user-images.githubusercontent.com/77330289/146937239-cafbce2a-0c49-4b01-bcd3-afd7c12de78d.png)
 
 The seventh and final step in this project was to creat, publish and Consume a pipeline.  The following screenshots shows that I created, published and consumed a pipeline.
+
+![image](https://user-images.githubusercontent.com/77330289/147080632-fa260e8d-084f-4fb6-8dc9-e934a8e011ad.png)
 
 The three screenshot that follow shows that the pipeline runs was completed successfully.
 
