@@ -129,6 +129,12 @@ The below screenshot shows that the Bankmarketing dataset was registered with th
 
 The below screenshot shows that the Pipeline REST endpoint is active.
 
+![image](https://user-images.githubusercontent.com/77330289/147078749-57100274-71b5-4e55-8ee1-7d71abca3f14.png)
+
+![image](https://user-images.githubusercontent.com/77330289/147078851-678879b6-3986-4b2f-b920-394152168227.png)
+
+![image](https://user-images.githubusercontent.com/77330289/147078978-eb4fe70b-a3e1-4679-bc3b-5b7e6826f231.png)
+
 ![image](https://user-images.githubusercontent.com/77330289/146941612-b8fd4c44-7a74-4f41-b08a-19a73ddedbfb.png)
 
 The below screenshot shows that the "Use RunDetails Widget" contains the step runs.
