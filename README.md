@@ -163,7 +163,7 @@ The sixth step in this project was to consume the model endpoint using a python 
 
 The endpoints.py file was provided along with the starter_files folder.  In order to interact with my deployed model, I had to make a few modifications to the endpoints.py file.
 - Authentication was enabled for my deployed model and thus I had to fetch the scoring_uri and key from the consume tab of my deployed model in Microsoft Azure Machine Learning Studio and add it to the endpoints.py file.
-- I added to sets of data to the endpoints.py file which will return two predictions on wheter these clients will make a deposit at the bank.
+- I added two sets of data to the endpoints.py file which will return two predictions on wheter these clients will make a deposit at the bank.
 
 ![image](https://user-images.githubusercontent.com/77330289/146937239-cafbce2a-0c49-4b01-bcd3-afd7c12de78d.png)
 
