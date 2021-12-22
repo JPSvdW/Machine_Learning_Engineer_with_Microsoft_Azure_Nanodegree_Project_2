@@ -34,7 +34,7 @@ The second step in this project is to create an Automated ML Experiment.
 
 In order to create an Automated ML Experiment the following steps were taken.
 
-1). I had to upload and register the bankmarketing_train.csv to Microsoft Azure Machine Learning Studio.  The two screenshots below shows this step.
+1). I had to upload and register the bankmarketing_train.csv to Microsoft Azure Machine Learning Studio.  The dataset was dowloaded to the computer and was uploaded to Azure Machine Learning Studio using the from local files method.
 
 ![image](https://user-images.githubusercontent.com/77330289/146927691-faec63e6-0612-4b44-8003-7eb2da178382.png)
 
